@@ -141,7 +141,35 @@ LIBS += D:/VTK_debug/VTK/lib/vtkzlib-7.1.lib
 
 SOURCES += \
         main.cpp \
-        widget.cpp
+        widget.cpp \
+    odbchelper.cpp \
+    layer.cpp \
+    line.cpp \
+    renderer.cpp \
+    adddrilling.cpp \
+    virtualline.cpp \
+    lithologydrilling.cpp \
+    removedrilling.cpp \
+    adddrillingdetail.cpp \
+    removedrillingdetail.cpp \
+    attribute.cpp \
+    dialog.cpp \
+    sortattribute.cpp \
+    sortdialog.cpp
 
 HEADERS += \
-        widget.h
+        widget.h \
+    odbchelper.h \
+    layer.h \
+    line.h \
+    renderer.h \
+    adddrilling.h \
+    virtualline.h \
+    lithologydrilling.h \
+    removedrilling.h \
+    adddrillingdetail.h \
+    removedrillingdetail.h \
+    attribute.h \
+    dialog.h \
+    sortattribute.h \
+    sortdialog.h
